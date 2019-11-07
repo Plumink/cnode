@@ -1,0 +1,360 @@
+/* 在CSS文件中引入antd的css文件 */
+@import '~antd/dist/antd.css';
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #ccc;
+}
+ul,ol{
+    list-style: none;
+}
+.header{
+    height: 50px;
+    background-color: #444;
+}
+.header header{
+    width: 1200px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.header header a{
+    margin: 0 20px;
+    color: #fff;
+}
+.header img{
+    width: 120px;
+}
+
+/* content */
+.content{
+
+    /* min-height: 2100px; */
+    /* height: 90%; */
+    width: 1200px;
+    margin: 30px auto 0;
+}
+.left{
+    width: 900px;
+    float: left;
+}
+.right{
+    width: 290px;
+    font-size: 14px;
+    float: right;
+    margin-bottom: 20px;
+    /* background-color: #fff; */
+}
+div{
+    display: block;
+}
+.panel{
+    font-size: 13px;
+    margin-bottom: 13px;
+    background-color: #fff;
+}
+
+.inner{
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+}
+.span-info{
+    display: inline-block;
+    float: none;
+    padding: 3px 10px;
+    border: none;
+    margin: 0;
+    font-size: 14px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: none;
+    border-radius: 3px;
+    line-height: 2em;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #5bc0de;
+}
+
+.sep10{
+    height: 10px;
+}
+
+.header1{
+    padding: 10px;
+    background-color: #f6f6f6;
+}
+.header2{
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+}
+.header2 a{
+    margin: 0 10px;
+    color: #80bd01;
+}
+.header2 a:hover{
+    color: #08c;
+}
+.header2 a:focus{
+    padding: 3px 4px;
+    border-radius: 3px;
+    background: #80bd01;
+    color: #f6f6f6;
+}
+.other{
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+}
+.other ol{
+    margin: 4px 0;
+    list-style: none;
+}
+.other img{
+    width: 150px;
+}
+.other1{
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+    text-align: center;
+}
+.other1 img{
+    width: 200px;
+    height: 200px;
+}
+.other1 a{
+    color: #666;
+}
+.unstyled{
+    margin-left: 0;
+    list-style: none;
+}
+.unstyled li div{
+    height: 29px;
+}
+.top_title{
+    max-width: 270px;
+    font-size: 14px;
+    color: #778087;
+    margin-top: 10px;
+}
+.dark{
+    color: #666;
+}
+.user_name a{
+    color: #778087;
+}
+
+/* 文章列表 */
+.topic_list{
+    margin: 0;
+}
+.cell{
+    padding-right: 10px;
+    background: #fff;
+}
+.score{
+    color: gray;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+/* 正文 */
+.cell1{
+    width: 900px;
+    height: 50px;
+    padding-right: 10px;
+    background: #fff;
+    border-top: none;
+    /* position: relative; */
+    padding: 10px ;
+    font-size: 14px;
+    text-overflow: ellipsis;
+}
+.cell1:hover{
+    background-color: #f6f6f6;
+}
+.cell1 img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-radius: 3px;
+}
+.topic_list{
+    width: 900px;
+    height: 1986px;
+}
+.count{
+    float: left;
+    padding-left: 10px;
+    line-height: 2em;
+}
+.count1{
+    color: #9E78C0;
+    font-size: 14px;
+}
+.count2{
+    color: #B4B4B4;
+    font-size: 10px;
+}
+
+
+.little_total{
+    float: left;
+    padding-left: 10px;
+    line-height: 2em;
+    text-overflow: ellipsis;
+}
+.little_total span{
+    /* float: left; */
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #80bd01;
+    font-size: 12px;
+}
+.little_total a{
+    /* float: left; */
+    color: #888888;
+    font-size: 16px;
+    padding-left: 4px;
+    max-width: 70%;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    /* overflow: hidden; */
+
+}
+.little_total a:hover{
+    text-decoration: underline;
+}
+
+/* 分页 */
+.tab{
+    width: 900px;
+    height: 60px;
+    /* margin: 10px 0 0 10px; */
+    background-color: #ffffff;
+}
+.tab ul{
+    padding-left: 10px;
+    padding-top:20px;
+}
+.tab ul>li{
+    display: inline;
+    
+}
+.tab ul>li>a{
+    
+    color: #666;
+    float: left;
+    padding: 4px 12px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    
+}
+
+/* 尾部 */
+.footer{
+    margin-top: 2135px;
+    position: relative;
+    top:10px ;
+    width: 100%;
+    height: 220px;
+    background: #ffffff;
+}
+.footer_main{
+    width: 80%;
+    max-width: 1400px;
+    min-width: 960px;
+    margin: 0 auto;
+    color: #e2e2e2;
+    padding: 20px 0;
+    font-size: 13px;
+    line-height: 2em;
+}
+
+.all{
+    position: relative;
+    height: auto;
+}
+
+.header2{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 3px 3px 0 0 ;
+}
+.topic_full{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 8px 0;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 75%;
+    line-height: 130%;
+    color: #000000;
+
+}
+.put_top{
+    background: #80bd01;
+    padding: 2px 4px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+
+}
+.changes{
+    overflow: hidden;
+    font-size: 12px;
+    color: #838383;
+}
+#content{
+    /* width: 90%; */
+    max-width: 900px;
+    min-width: 900px;
+    margin: 15px auto;
+    /* max-height: 1000px; */
+    min-height: 400px;
+    background-color: #fff;
+    padding: 4px;
+}
+.innertopic{
+    padding-left: 10px;
+}
+.innertopic img{
+    max-width: 880px;
+}
+
+
+.main{
+    width: 90%;
+    max-width: 1400px;
+    min-width: 960px;
+    margin: 15px auto;
+    min-height: 400px;
+    position: relative;
+}
+
+.ll{
+    float: left;
+    font-size: 14px;
+    line-height: 40px;
+}
+.header3{
+    background-color: #f6f6f6;
+    height: 40px;
+    width: 900px;
+}
+.inn{
+    width: 900px;
+    height: 260px;
+    color: #ffffff;
+}
